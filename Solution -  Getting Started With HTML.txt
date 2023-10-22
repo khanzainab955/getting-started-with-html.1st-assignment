@@ -1,0 +1,81 @@
+﻿Assignment 
+1. Write a simple program in HTML  that displays the heading "HTML defines the content and structure of your  website” on the web browser. 
+Answer:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment example</title>
+</head>
+<body>
+<h1>HTML defines the content and strucure of your website</h1>
+</body>
+</html>Output: 
+Output:  
+________________
+
+
+Q2.. Explain the purpose of comments in and provide an example of how to use comments in an HTML  document.
+
+
+Answer:
+Comments in HTML serve as non-rendered text that provides information about the code for human readers.  They are useful for documenting your code, explaining its purpose, making notes, or temporarily disabling parts  of the code without deleting them. Comments are ignored by browsers and do not affect the rendering of the  webpage. 
+
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment example</title>
+</head>
+<body>
+    <!--this is a comment explaning the purpose of the following  heading--->
+    <h1>welcome to my website</h1>
+    <!--uncomment the line below to temporarily remove the paragraph-->
+    <!--<p>this  paragraph is currently hidden</p>
+    <!--the above line is commented out and will not nbe displayed-->
+    <!--TODO:add more content here later-->
+   
+</body>
+</html>
+
+
+ The first comment provides an explanationabout  the purpose of the heading.
+The second comment is used to disablle the paragraph temporarily. If you remove the <!-- and --> around  the <p> tag, the paragraph will displayed 
+The third comment includes the "TODO" label, indicating that there's a task to be  done later, such as adding  more content   to the new page. 
+
+
+3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break.  Arrange these elements to create a simple web page layout. 
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simle web page layout</title>
+
+
+</head>
+<body>
+    <h1> london</h1>
+    <p>london is capital city of england its then most populous city in the united
+kingdom,with a metropolitan area of over 13 million inhabitants</p> <hr> <p>its stand on the river thames in south-east england at the head of around 8.8 millions.</p>
+</body>
+</html>
+4. Write a short note on Tag and element with an example. 
+Tag: 
+An HTML tag is a snippet of code enclosed within angle brackets ("<" and ">") that defines the purpose and  structure of a specific element on a webpage. Tags are used to instruct the web browser how to display the  content they enclose. Tags usually come in pairs: an opening tag and a closing tag, with the name of the  element enclosed within the tags. 
+Example of a Tag: 
+<p>this is paragraph tag</p>
+
+
+In this example, <p> is the opening tag, and </p> is the closing tag. The content "This is a paragraph tag." is the  text within the paragraph element. 
+Element: 
+An HTML element is a complete unit that includes an opening tag, content, and a closing tag. It represents a  distinct part of a webpage's content or structure. Elements are composed of tags and the content enclosed  between those tags. 
+Example of an Element: 
+<p>thisn is paragraph tag</p>
+In this example, <p> is the opening tag, "This is a paragraph element." is the content, and </p> is the closing tag.  Together, they form the complete <p> element, representing a paragraph of text.
